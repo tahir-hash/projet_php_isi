@@ -1,0 +1,20 @@
+{
+    "name": "mbayepro/inscription_poo",
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\":"core/",
+            "App\\Model\\":"models/",
+            "App\\Controller\\":"controllers/",
+            "App\\Exception\\":"exceptions/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tahir Mbaye",
+            "email": "mbayepro6@gmail.com"
+        }
+    ],
+    "require": {
+        "digiaonline/instance-factory": "^1.1"
+    }
+}

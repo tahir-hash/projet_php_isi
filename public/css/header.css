@@ -1,0 +1,31 @@
+/* Styles pour l'en-tête */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f6f6; /* Nouvelle couleur de fond pour l'en-tête */
+    color: #060505; /* Couleur du texte */
+    width: 100%; /* Pour occuper toute la largeur */
+  }
+  
+  .logo img {
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .title {
+    text-align: right;
+  }
+  
+  .title h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .title p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
